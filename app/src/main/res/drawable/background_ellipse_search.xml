@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/background_ellipse">
+
+    <item android:state_enabled="false">
+        <shape>
+            <solid android:color="#eeeeee" />
+            <corners android:bottomLeftRadius="@dimen/ellipsebutton_large_corner" android:bottomRightRadius="@dimen/ellipsebutton_large_corner" android:topLeftRadius="@dimen/ellipsebutton_large_corner" android:topRightRadius="@dimen/ellipsebutton_large_corner" />
+        </shape>
+    </item>
+    <item android:state_enabled="true">
+        <shape>
+            <solid android:color="#eeeeee" />
+            <corners android:bottomLeftRadius="@dimen/ellipsebutton_large_corner" android:bottomRightRadius="@dimen/ellipsebutton_large_corner" android:topLeftRadius="@dimen/ellipsebutton_large_corner" android:topRightRadius="@dimen/ellipsebutton_large_corner" />
+        </shape>
+    </item>
+
+</selector>
